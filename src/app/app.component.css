@@ -1,0 +1,26 @@
+.container{
+    display: block;
+    align-items: center;
+}
+
+.search-container{
+    display: block;
+}
+
+h1{
+    margin:30px;
+    text-align:center;
+}
+
+@media screen and (max-width: 1440px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+
+    .search-container{
+        margin-top: 10px;
+    }
+}
